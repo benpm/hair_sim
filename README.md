@@ -1,5 +1,8 @@
 # StrandStorm
 ### Real-time Hair Rendering and Dynamics
+
+StrandStorm is a comprehensive real-time hair rendering and simulation system that combines state-of-the-art computer graphics techniques with physically-based dynamics. Built on OpenGL 4.6 and C++17, this project implements sophisticated hair strand simulation using discrete elastic rods for realistic deformation and motion, along with advanced rendering techniques including Kajiya-Kay and Marschner shading models for photorealistic hair appearance. The system features procedural hair generation with interpolation controls, deep opacity maps for accurate hair-to-hair shadowing, and robust collision detection between hair strands and surfaces. Leveraging modern compute shaders and spatial acceleration structures like voxel grids, StrandStorm delivers interactive performance while maintaining physical accuracy, making it suitable for both research and practical applications in real-time hair visualization. The implementation draws from foundational research in computer graphics, including seminal papers on light scattering from hair fibers, discrete elastic rods, and energy-conserving hair reflectance models.
+
 <img src="./images/1.png" width=49%> <img src="./images/2.png" width=49%>
 
 #### Features:
